@@ -56,7 +56,7 @@ selected_movie = st.selectbox(
 num_recommendations = st.number_input(
     "Number of Recommendations",
     min_value=1,
-    max_value=20,  # Adjust this value based on how many recommendations you want to support
+    max_value=20,
     value=5
 )
 
@@ -72,7 +72,6 @@ if st.button('Show Recommendation'):
 
     for i in range(num_recommendations):
         with cols[i % num_cols]:  # Distribute movies across columns
-            # Display image with fixed size
             st.image(recommended_movie_posters[i], use_column_width=True, width=200)
             st.markdown(f"<p style='text-align: center; font-weight: bold;'>{recommended_movie_names[i]}</p>",
                         unsafe_allow_html=True)
