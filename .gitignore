@@ -1,0 +1,4 @@
+venv
+.env
+gen_similarity.pkl
+gen_movie_list.pkl
