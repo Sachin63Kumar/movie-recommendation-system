@@ -1,10 +1,10 @@
-# CineChoice (Movie Recommendation System)
+# CineSuggest (Movie Recommendation System)
 
-**CineChoice** is a movie recommendation system that helps users discover new movies based on their preferences. It uses advanced recommendation algorithms to suggest movies that are similar to the ones users like.
+**CineSuggest** is a movie recommendation system that helps users discover new movies based on their preferences. It uses advanced recommendation algorithms to suggest movies that are similar to the ones users like.
 
 ## Project Description
 
-CineChoice provides an intuitive web interface where users can input their favorite movie and receive personalized recommendations. The system leverages movie similarity data and utilizes the TMDB API for fetching movie posters and additional information.
+CineSuggest provides an intuitive web interface where users can input their favorite movie and receive personalized recommendations. The system leverages movie similarity data and utilizes the TMDB API for fetching movie posters and additional information.
 
 ## Features
 
@@ -22,7 +22,7 @@ CineChoice provides an intuitive web interface where users can input their favor
 
 ## Screenshots
 
-Below are some screenshots of the CineChoice web interface:
+Below are some screenshots of the CineSuggest web interface:
 
 ![movie_recommendation](https://github.com/user-attachments/assets/077c2a59-b556-4b49-81f6-9594c8ce9383)
 *Enter a movie name and get recommendations.*
